@@ -18,11 +18,11 @@ export const Welcome = () => {
             <h1>{name}</h1>
             <p className="subtitle">{hours}</p>
             <p className="location">{locations[locationIndex]}</p>
-            <button className="floating-btn" >
-                <a href="#Courses">
-                    <img src="ressources/chevron-down.svg" alt="Chevron Down" />
-                </a>
-            </button>
+            <a href="#Courses">
+                <button className="floating-btn" >
+                        <img src="ressources/chevron-down.svg" alt="Chevron Down" />
+                </button>
+            </a>
         </div>
     );
 }
