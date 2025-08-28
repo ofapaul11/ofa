@@ -17,7 +17,7 @@ export const NoticeList = ({ notices }) => {
                     {notes.slice(0,15).map((notice, id) => (
                         <li key={id} className="notice-item">
                             <strong>{notice.name}</strong>
-                            <div>{notice.message} at <span>{notice.date}</span></div>
+                            <div>{notice.message}</div>
                         </li>
                     ))}
                 </ul>
