@@ -11,7 +11,7 @@ export const NoticeList = ({ notices }) => {
     return (
         <>
             {notes.length === 0 ? (
-                <p className="notice-empty">Veuillez ajouter un avis.</p>
+                <p className="notice-empty">Please add a review.</p>
             ) : (
                 <ul className="notice-list">
                     {notes.slice(0,15).map((notice, id) => (

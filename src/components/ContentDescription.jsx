@@ -3,54 +3,54 @@ import { Responsable } from "./Responsable";
 
 const listFormations = [
     {
-        name: "Permis B",
-        poste: "Voiture particulière",
-        description: "Autorise la conduite de véhicules légers (voiture, utilitaire < 3,5t) avec jusqu'à 8 passagers. Valable en Europe, Afrique et Amérique sous différentes appellations."
+        name: "Category B License",
+        poste: "Private car",
+        description: "Authorizes driving light vehicles (car, utility vehicle < 3.5t) with up to 8 passengers. Valid in Europe, Africa and America under different names."
     },
     {
-        name: "Permis A",
-        poste: "Moto",
-        description: "Permet de conduire des motos de toutes cylindrées. Souvent subdivisé en A1 (petite cylindrée), A2 (intermédiaire), A (toutes motos)."
+        name: "Category A License",
+        poste: "Motorcycle",
+        description: "Allows driving motorcycles of all engine sizes. Often subdivided into A1 (small engine), A2 (intermediate), A (all motorcycles)."
     },
     {
-        name: "Permis AM",
-        poste: "Cyclomoteur",
-        description: "Autorise la conduite de cyclomoteurs et scooters jusqu'à 50cc. Souvent accessible dès 14 ans."
+        name: "Category AM License",
+        poste: "Moped",
+        description: "Authorizes driving mopeds and scooters up to 50cc. Often accessible from age 14."
     },
     {
-        name: "Permis C",
-        poste: "Poids lourd",
-        description: "Permet de conduire des camions et véhicules de transport de marchandises de plus de 3,5 tonnes."
+        name: "Category C License",
+        poste: "Heavy goods vehicle",
+        description: "Allows driving trucks and goods transport vehicles over 3.5 tonnes."
     },
     {
-        name: "Permis D",
-        poste: "Transport en commun",
-        description: "Autorise la conduite d'autobus et autocars pour le transport de personnes (plus de 8 passagers)."
+        name: "Category D License",
+        poste: "Public transport",
+        description: "Authorizes driving buses and coaches for the transport of people (more than 8 passengers)."
     },
     {
-        name: "Permis E (BE, CE, DE)",
-        poste: "Véhicule avec remorque",
-        description: "Permet de conduire des ensembles de véhicules avec remorque lourde (voiture + remorque, camion + remorque, bus + remorque)."
+        name: "Category E License (BE, CE, DE)",
+        poste: "Vehicle with trailer",
+        description: "Allows driving combinations of vehicles with heavy trailers (car + trailer, truck + trailer, bus + trailer)."
     },
     {
-        name: "Permis T",
-        poste: "Tracteur agricole",
-        description: "Autorise la conduite de tracteurs agricoles et matériels assimilés. Spécifique à certains pays européens et africains."
+        name: "Category T License",
+        poste: "Agricultural tractor",
+        description: "Authorizes driving agricultural tractors and related equipment. Specific to certain European and African countries."
     },
     {
-        name: "Permis G",
-        poste: "Engins spéciaux",
-        description: "Permet de conduire des engins de chantier, de travaux publics ou véhicules spéciaux. Souvent requis pour les conducteurs professionnels."
+        name: "Category G License",
+        poste: "Special machinery",
+        description: "Allows driving construction machinery, public works or special vehicles. Often required for professional drivers."
     },
     {
-        name: "Permis CDL",
-        poste: "Poids lourd Amérique",
-        description: "Permis américain pour camions, bus et véhicules commerciaux. Catégories : CDL-A (ensemble de véhicules lourds), CDL-B (camion/bus simple), CDL-C (véhicules spécialisés)."
+        name: "CDL License",
+        poste: "Heavy goods vehicle America",
+        description: "American license for trucks, buses and commercial vehicles. Categories: CDL-A (combination of heavy vehicles), CDL-B (simple truck/bus), CDL-C (specialized vehicles)."
     },
     {
-        name: "Permis moto Afrique",
-        poste: "Moto légère",
-        description: "Permis spécifique pour motos de faible cylindrée, souvent utilisé en Afrique pour les motos-taxis et déplacements urbains."
+        name: "Motorcycle license Africa",
+        poste: "Light motorcycle",
+        description: "Specific license for low-cylinder motorcycles, often used in Africa for motorcycle taxis and urban travel."
     }
 ];
 
