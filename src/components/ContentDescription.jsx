@@ -57,12 +57,12 @@ const listFormations = [
 export const ContentDescription =()=>{
 
     useEffect(() => {
-        fetch('./description.txt')
+        fetch('/description.txt')
             .then(response => response.text())
             .then(data => setDescription(data))
             .catch(error => {
                 console.error('Error loading description:', error);
-                setDescription("Ofa est une organisation exerçant principalement dans l'apprentissage de la conduite automobile.");
+                setDescription("Ofa is an organization that mainly deals with driving lessons.");
             });
     }, []);
 

@@ -71,7 +71,7 @@ nav a:hover::after {
 /* Welcome */
 .home {
   height: 100vh;
-  background: url(../public/ressources/citynight.jpg) no-repeat center center;
+  background: url(/ressources/citynight.jpg) no-repeat center center;
   background-size: cover;
   padding: 0 50px;
   position: relative;
