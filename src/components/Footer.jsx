@@ -12,7 +12,7 @@ export const Footer = () => {
                     © 2023 OFA - All rights reserved
                 </p>
                 <div className="medias-footer">
-                    <a href="https://x.com/@NoirMr42974">
+                    <a href="https://x.com/@NoirMr42974" target="_blank" rel="noopener noreferrer">
                         <img src="ressources/x.svg" alt="x icon" />
                     </a>
                     <a href="https://t.me/Noirloseille" target="_blank" rel="noopener noreferrer">
